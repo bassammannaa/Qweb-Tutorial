@@ -3,7 +3,7 @@
 
 #### System main menu
 
-****<u>Qweb-Tutorial/wizardreport/view/menu.xml</u>****
+fiel path: Qweb-Tutorial/wizardreport/view/menu.xml
 
 Menu action ID (app_sum_rep_wiz_wizard_menu_action) will take you to form action name (app_sum_rep_wiz_wizard_action_window)
 
