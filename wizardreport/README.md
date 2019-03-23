@@ -2,20 +2,24 @@
 
 #### Introduction
 
-This types of reports has to have 2 XML files + 2 Paython files + adding the report link in menu XML file
+This types of reports has to have **<u>2 XML files</u>** + **<u>2 Payton files</u>** in addition to add the report link in menu XML file
 
-1- Under wizard folder:
-One XML file : for wizard form 
-One Python file: for prepare the fields that will appear in wizard form and also the required action when the suer click print the report
+**<u>1- Under wizard folder:</u>**
+
+**One XML file** : for wizard form view design.
+**One Python file**: for prepare the fields that will appear in wizard form and also the required action when the suer click print the report
 When you click print, the code will call the action of the report
 
-2- Under report folder:
-One XML file: for designing the report layout
-One Python file: for preparing the required recordset that need to appear in the report
+**<u>2- Under report folder:</u>**
 
-3- menu XML files
-One menu action: to access to the wizard form
-One menu action (action disable): to access to form report by code so need to appear to end user
+**One XML file</u>**: for designing the report layout
+**One Python file**: for preparing the required recordset that need to appear in the report
+
+**<u>3- menu XML files</u>**
+
+**One menu action</u>**: to access to the wizard form
+**One menu action (action disable)**: to access to form report by code so need to appear to end user
+
 
 
 #### System main menu
@@ -57,7 +61,7 @@ Has to have function name called (print_report) to allow print another report th
 
 <b>file path: </b>Qweb-Tutorial/wizardreport/report/appsumrepview.xml
 This file should be under folder report
-Since this report will called by paython code and some data model will pass to it using code, this report need to model saved in the same report folder ()
+Since this report will called by python code and some data model will pass to it using code, this report need to model saved in the same report folder ()
 
 #### Main report model
 
@@ -66,5 +70,5 @@ Since this report will called by paython code and some data model will pass to i
 This file should be under folder report
 This model should be transit model <b>models.AbstractModel></b> 
 This model name should be like (report.report name)
-should contains funcation name (_get_report_values) that will return all report recordsets
+should contains function name (_get_report_values) that will return all report recordsets
 
