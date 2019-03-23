@@ -17,5 +17,17 @@
                   action="app_sum_rep_wiz_wizard_action_window"
                   sequence="4"/>
                   
+        
+        
+        <report
+            id="action_report_app_sum_wiz_rep_wiz"
+            model="housemaid.configuration.externalofficetrans"
+            string="Application Summary"
+            report_type="qweb-pdf"
+            name="housemaid.app_sum_rep"
+            file="housemaid.app_sum_rep"
+            menu="False"/>
+        
+        
                       </data>
 </odoo>
